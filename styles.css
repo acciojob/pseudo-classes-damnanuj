@@ -1,1 +1,35 @@
 /*  your css code here. If applicable */
+body{
+	background-color: rgb(135, 206, 235);
+}
+article p:first-child{
+	background-color:black;
+	color:white;
+}
+article p:last-child{
+	color:red;
+}
+li{
+	padding:10px;
+	width:50%
+}
+
+ul li:first-child{
+	background-color: white;
+	font-size:22px;
+}
+ul li:last-child{
+	background-color: white;
+	font-size:22px;
+}
+ul li:nth-child(3) {
+  background-color: pink;
+}
+ul li:nth-child(even) {
+  background-color: gray;
+}
+
+
+
+
+
